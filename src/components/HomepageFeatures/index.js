@@ -4,9 +4,7 @@ import styles from "./styles.module.css";
 
 const FeatureList = [
   {
-    emoji: (
-      <>&#127922;</>
-    ),
+    emoji: <>&#127922;</>,
     title: "Reusable Card Components",
     description: (
       <>
@@ -17,9 +15,7 @@ const FeatureList = [
     ),
   },
   {
-    emoji: (
-      <>&#128241;</>
-    ),
+    emoji: <>&#128241;</>,
     title: "Responsive and Mobile-Friendly",
     description: (
       <>
@@ -30,9 +26,7 @@ const FeatureList = [
     ),
   },
   {
-    emoji: (
-      <>&#9889;</>
-    ),
+    emoji: <>&#9889;</>,
     title: "Simplified Card Layout Creation",
     description: (
       <>
@@ -47,7 +41,9 @@ function Feature({ emoji, title, description }) {
   return (
     <div className={`${clsx("col col--4")} ${styles.card}`}>
       <div className={styles.card__box}>
-        <div><span>{emoji}</span> <h3>{title}</h3></div>
+        <div>
+          <span>{emoji}</span> <h3>{title}</h3>
+        </div>
         <p>{description}</p>
       </div>
     </div>
