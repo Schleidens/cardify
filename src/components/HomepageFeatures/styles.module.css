@@ -1,0 +1,37 @@
+.features {
+  padding: 2rem 0;
+  width: 100%;
+}
+
+.card {
+  margin: 8px 0px;
+}
+
+.card__box {
+  padding: 23px;
+  background-color: #f6f6f7;
+  border-radius: 2px;
+
+  height: 100%;
+}
+
+.card__box div{
+  display: flex;
+
+  margin-bottom: .7em;
+}
+
+.card__box div span{
+  font-size: 22px;
+
+  display: flex;
+  align-items: center;
+}
+
+.card__box div h3{
+  margin: 0 0 0 .5em;
+}
+
+[data-theme="dark"] .card__box {
+  background-color: #242526;
+}
