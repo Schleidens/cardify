@@ -44,7 +44,7 @@
   margin: unset;
 }
 
-.markdown .reset > h2 {
+.markdown .reset h2 {
   margin: unset;
 }
 
@@ -55,5 +55,9 @@
 .markdown .reset > h4,
 .markdown .reset > h5,
 .markdown .reset > h6 {
+  margin: unset;
+}
+
+.reset p {
   margin: unset;
 }
